@@ -14,6 +14,7 @@ export default class Home extends Component {
 
     logout=()=>{
         authentication.onLogout();
+        localStorage.clear();
         this.props.history.push('/');
     }
 

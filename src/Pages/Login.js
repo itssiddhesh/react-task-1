@@ -42,7 +42,7 @@ export default class Login extends Component {
                     </div>
                     <div className='form-content'>
                         <label>Password</label>
-                        <input type='password' name='password' onChange={this.handleChange} placeholder='Write a password' className='form-input'/>
+                        <input type='password' name='password' onChange={this.handleChange} placeholder='Enter the password' className='form-input'/>
                     </div>
                     <button type='submit'>Submit</button>
                     <div style={{textAlign: 'left', paddingLeft: '20px'}}>
